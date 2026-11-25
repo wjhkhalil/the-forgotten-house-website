@@ -1,6 +1,6 @@
 // Shown at /privacy. Keep this in step with the game: if a new SDK, analytics
 // or online feature is added, the "What the game collects" section must change.
-const EFFECTIVE_DATE = 'October 19, 2026';
+const EFFECTIVE_DATE = 'November 6, 2026';
 const CONTACT_EMAIL = 'heyitswajeeha@gmail.com';
 
 const sections = [
@@ -79,6 +79,6 @@ export default function Privacy() {
       <p className="privacy-date">Effective {EFFECTIVE_DATE}</p>
       {sections.map(([title, body], index) => <section key={title}><h2><span>{String(index + 1).padStart(2, '0')}</span>{title}</h2>{body}</section>)}
     </main>
-    <footer><a className="brand" href="/"><span>✦</span> The Forgotten House</a><p>© {new Date().getFullYear()} The Forgotten House. All rights reserved.</p><a href="/">Home ↑</a></footer>
+    <footer><a className="brand" href="/"><span>✦</span> The Forgotten House</a><p>© {new Date().getFullYear()} The Forgotten House. All rights reserved. · <a href="/terms">Terms of Service</a></p><a href="/">Home ↑</a></footer>
   </>;
 }

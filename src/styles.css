@@ -26,3 +26,61 @@
 .privacy li { margin-bottom: .45rem; }
 .privacy a, footer p a { color: var(--gold); text-decoration: underline; text-underline-offset: 3px; overflow-wrap: anywhere; }
 .privacy code { font-size: .85em; overflow-wrap: anywhere; }
+
+/* FAQ page (/faq). */
+.faq-list { padding: 1rem 0; }
+.faq-item { margin-bottom: 1rem; padding: 1rem; border: 1px solid var(--line); border-radius: 8px; background: rgba(7, 17, 29, 0.3); }
+.faq-item summary { cursor: pointer; font-size: clamp(1rem, 2.2vw, 1.3rem); padding: 0.5rem 0; font-weight: 500; display: flex; align-items: center; gap: 0.75rem; }
+.faq-item summary span { color: var(--gold); font-size: 0.85em; letter-spacing: 0.05em; }
+.faq-item .faq-answer { padding-top: 1rem; padding-left: 2.5rem; color: #c7c4be; }
+.faq-item .faq-answer p { margin: 0.5rem 0; }
+.faq-item .faq-answer ol, .faq-item .faq-answer ul { padding-left: 1.5rem; margin: 0.5rem 0; }
+.faq-item .faq-answer li { margin: 0.25rem 0; }
+.faq-item .faq-answer strong { color: #e5d5c8; }
+.faq-item .faq-answer a { color: var(--gold); text-decoration: underline; }
+.faq-item .faq-answer blockquote { padding-left: 1rem; margin: 0.75rem 0; border-left: 2px solid var(--gold); color: #b8b2a5; }
+
+/* Press Kit page (/press). */
+.press-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; padding: 1rem 0; }
+.press-grid dl { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.press-grid dt { flex-basis: 150px; flex-shrink: 0; color: var(--gold); font-weight: 500; }
+.press-grid dd { flex-grow: 1; color: #c7c4be; margin: 0; }
+.press-grid dd ul { padding-left: 1.2rem; margin: 0.25rem 0; }
+.press-grid dd li { margin: 0.25rem 0; color: #b8b2a5; }
+
+.description-levels { display: flex; flex-direction: column; gap: 2rem; padding: 1rem 0; }
+.description-levels div { padding: 1rem; border: 1px solid var(--line); border-radius: 8px; background: rgba(7, 17, 29, 0.2); }
+.description-levels h3 { color: var(--gold); margin-bottom: 0.75rem; font-size: 1.1rem; }
+.description-levels p { color: #c7c4be; white-space: pre-line; }
+
+.feature-list { padding: 1rem 0; }
+.feature-list li { margin: 0.5rem 0; padding: 0.75rem 1rem; background: rgba(7, 17, 29, 0.3); border-left: 2px solid var(--gold); color: #c7c4be; }
+.feature-list li span { display: inline-block; width: 2rem; color: var(--gold); font-size: 0.9rem; letter-spacing: 0.05em; }
+
+.locations-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; padding: 1rem 0; }
+.location-card { padding: 1.5rem; border: 1px solid var(--line); border-radius: 8px; background: rgba(7, 17, 29, 0.3); color: #c7c4be; }
+.location-card h3 { margin-bottom: 0.75rem; font-size: 1.2rem; }
+.location-card h3 span { display: inline-block; margin-right: 0.75rem; color: var(--gold); font-size: 0.9rem; letter-spacing: 0.05em; }
+.location-card p { margin: 0 0 0.75rem; }
+.location-card em { font-style: italic; color: #b8b2a5; }
+
+.quotes-section { display: flex; flex-direction: column; gap: 2rem; padding: 1rem 0; }
+.quotes-section blockquote { padding: 1.5rem; border-left: 3px solid var(--gold); background: rgba(7, 17, 29, 0.2); color: #c7c4be; font-style: italic; }
+.quotes-section blockquote p { margin: 0 0 1rem; font-size: 1.1rem; font-style: italic; }
+.quotes-section blockquote footer { color: var(--gold); font-style: normal; font-size: 0.9rem; }
+
+.download-links { display: flex; gap: 1rem; flex-wrap: wrap; padding: 1rem 0; }
+.download-badge { padding: 1rem; border: 1px solid var(--gold); border-radius: 8px; background: rgba(26, 22, 18, 0.5); }
+.download-badge a { display: block; color: var(--gold); text-decoration: none; font-weight: 500; padding: 0.5rem; }
+.download-badge a:hover { text-decoration: underline; }
+.download-badge span { display: block; }
+
+.contact-section { padding: 1rem 0; }
+.contact-section dl { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; 
+}
+.contact-section dt { flex-basis: 120px; flex-shrink: 0; color: var(--gold); font-weight: 500; }
+.contact-section dd { flex-grow: 1; color: #c7c4be; margin: 0; }
+
+.press-footer { padding: 2rem 0; border-top: 1px solid var(--line); margin-top: 2rem; text-align: center; color: #b8b2a5; }
+.press-footer p { margin: 0.5rem 0; }
+.press-footer code { color: var(--gold); }
